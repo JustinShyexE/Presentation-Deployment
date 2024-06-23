@@ -1,0 +1,190 @@
+
+.messageDiv{
+    margin: 5px;
+    min-width: 310px;
+    max-width: 400px;
+    min-height: 310px;
+    padding-top: 50px;
+   
+}
+
+.posMessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+.divy{
+    max-width: 310px;
+
+}
+
+.inputBar{
+    min-width: 280px;
+    height: 37px;
+    margin-top: 10px;
+    border: 3px solid #D5F0C1;
+    outline-color: #AAD9BB;
+    padding-left: 13px;
+    border-radius: 15px;
+    color: #80BCBD;
+    font-family: AileronThin;
+    font-size: 16px;
+    text-transform: capitalize;
+ }
+ .inputBar::placeholder {
+   font-family: AileronThin;
+   color: #80BCBD;
+ }
+
+.inptMessage{
+   height: 70px;
+   border-radius: 21px;
+   font-family: AileronThin;
+}
+
+.btn{
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    border: 3px solid #AAD9BB;
+    outline-color: #AAD9BB;
+    color: #80BCBD;
+    background-color: transparent;
+    margin-top: 3px;
+    margin-left: 2px;
+}
+ 
+.status{
+    font-family: AileronThin;
+    margin: 0px;
+    margin-left: 5px;
+    color: #80BCBD;
+}
+.statusDiv{
+    height: 18px;
+    width: 200px
+}
+.details{
+    min-width: 320px;
+    min-height: 300px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    flex-direction: column-reverse;
+}
+.detailsDiv{
+    max-width: 400px;
+}
+.msgTitle{
+  width: 300px;
+  text-align: start;
+  padding-left: 20px;
+}
+.msgText{
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.msgImg{
+   min-width: 315px;
+   min-height: 315px;
+   background-color: transparent;
+   background-image: url("food.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 90%;
+   margin-top: 50px;
+}
+
+@media only screen and (min-width: 500px){
+    .messageDiv{
+        min-width: 410px;
+        max-width: 500px;
+        min-height: 310px;
+    }
+    .divy{
+        min-width: 420px;
+    }
+    .inputBar{
+        min-width: 400px;
+        height: 45px;
+    }
+    .inptMessage{
+        height: 100px;
+    }
+    .btn{
+        width: 120px;
+        height: 40px;
+    }
+}
+
+@media only screen and (min-width: 730px){
+    .details{
+        flex-direction: row-reverse;
+    }
+}
+@media only screen and (min-width: 900px){
+    .msgImg{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .messageDiv{
+        min-width: 410px;
+        max-width: 700px;
+        min-height: 310px;
+    }
+    .divy{
+        min-width: 620px;
+    }
+    .inputBar{
+        min-width: 600px;
+        height: 45px;
+        font-size: 18px;
+    }
+    .inptMessage{
+        height: 130px;
+        font-size: 18px;
+    }
+    .btn{
+        width: 120px;
+        height: 40px;
+    }
+    .status{
+        font-size: 20px;
+    }
+    .statusDiv{
+        width: 500px;
+        height: 23px;
+    }
+    .posMessage{
+      min-height: 700px;
+    }
+    .msgImg{
+        width: 420px;
+        height: 420px;
+    }
+}
+@media only screen and (min-width: 1300px){
+    .details{
+        gap:150px;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    .details{
+        flex-direction: row-reverse;
+        gap:200px;
+        margin-top: 400px;
+        margin-bottom: 300px;
+    }
+    .msgImg{
+        width: 650px;
+        height: 650px;
+    }
+    .detailsDiv{
+    max-width: 700px;
+    }
+}

@@ -1,0 +1,99 @@
+.anmBasic{
+    width: 100%;
+    min-height: 20px;
+}
+
+ 
+
+
+.fadeIn{
+    animation: fadeIn linear;
+    animation-timeline: view(100% 0px); 
+}
+
+
+@keyframes fadeIn{
+    from{
+        scale: .8; opacity: 0;
+    }
+    to{
+        scale:1; opacity: 1;
+    }
+}
+.in{
+    animation-timeline: view(1000px 0px);
+}
+
+.anmIntrod{
+    animation: fade-out linear;
+}
+
+@keyframes fade-out{
+    to {opacity:0}
+}
+
+
+
+
+
+
+.anmProj{
+    font-family: AileronThin;
+    margin: 0px;
+    font-size: 40px;
+    color:#80BCBD;;
+    margin-left: 10%;
+    animation-duration: 2s;
+    animation-name: proj;
+    animation-timeline:view(0px);
+}
+
+@keyframes proj{
+    from {
+        margin-left: 90%;
+      }
+      to {
+        margin-left: 10%;
+      }
+}
+
+.me{
+    animation-timeline: view(50px 0px);
+}
+
+
+.anmPhoto{
+    opacity: 0;
+    animation: fadeIn 0.8s forwards;
+    animation-duration: 1.3s;
+    animation-delay: 1.2s;
+}
+
+
+.anmTitle{
+   position: relative;
+   animation: moveRight 1s ease-in-out;
+}
+@keyframes moveRight{
+    from {
+        left: 1800px;
+      }
+      to {
+        left: 0px;
+      }
+}
+
+.anmCont{
+    position: relative;
+    animation: moveLeft 1s ease-in-out;
+}
+@keyframes moveLeft{
+    from{
+        right: 1200px;
+    }
+    to{
+        right: 0%;
+    }
+}
+
+

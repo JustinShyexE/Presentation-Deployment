@@ -1,0 +1,29 @@
+.ft{
+    min-width: 320px;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-bottom: 30px;
+    background-color: #D5F0C1;
+}
+.gmail{
+    width: fit-content;
+    margin: 0px;
+    font-family: AileronThin;
+    font-size: 17px;
+    color: #80BCBD;
+}
+.contactImg{
+    height: 30px;
+    width: 30px;
+}
+.contactBox{
+    display: inline-flex;
+    gap:10px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}

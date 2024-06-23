@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/static/js/main.9221ca86.js",
+    "static/media/video3.mp4": "/static/media/video3.6deda799dcd926fa9e67.mp4",
+    "static/media/video1.mp4": "/static/media/video1.3c58f92aaf398c32eaf8.mp4",
+    "static/media/video2original.mp4": "/static/media/video2original.1b574c40a1dbb63e2616.mp4",
+    "static/media/python.png": "/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/nodejs.png": "/static/media/nodejs.10ccac0eb9dd930b6b6c.png",
+    "static/media/git.png": "/static/media/git.985a7327fc7347ebdba0.png",
+    "static/media/phone.png": "/static/media/phone.d2c9f810ef547667986e.png",
+    "static/media/sql.png": "/static/media/sql.d0875781b3030e385cc1.png",
+    "static/media/api.png": "/static/media/api.3b1f22a2427ec70c0742.png",
+    "static/media/github.png": "/static/media/github.f11021803f68852df283.png",
+    "static/media/html.png": "/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/react3.png": "/static/media/react3.8e1335afa513c90c6301.png",
+    "static/media/css.png": "/static/media/css.463e319bad8e0edf1ef7.png",
+    "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/jquery.svg": "/static/media/jquery.fcc480227fd31fecc887db807010bf1d.svg",
+    "index.html": "/index.html",
+    "main.9221ca86.js.map": "/static/js/main.9221ca86.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.9221ca86.js"
+  ]
+}

@@ -1,0 +1,148 @@
+.appleDiv{
+    min-width: 320px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.undrln{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.parent{ 
+    height: 183px;
+    width: 320px;
+    position: relative;
+} 
+.child{
+    position: absolute;
+    width: 252px;
+    height: 162px;
+    background-color: black;
+    top: 4px;
+    left: 34px;
+    border-radius: 5px;
+}
+.Button{
+    position: relative;
+    top: -90px;
+    left: 110px;
+    width: fit-content;
+    cursor: pointer;
+}
+.soundButton{
+    position: relative;
+    top: -75px;
+    left: 5px;
+    cursor: pointer;
+}
+@media only screen and (min-width: 500px){
+    .parent{ 
+        height: 244px;
+        width:426px;
+    } 
+    .child{
+        width: 336px;
+        height: 216px;
+        top: 5px;
+        left: 45px;
+        border-radius: 7px;
+    }
+    .Button{
+        top: -120px;
+        left: 150px;
+    }
+    .soundButton{
+        top: -85px;
+    }
+}
+@media only screen and (min-width: 800px){
+    .parent{ 
+        height: 183px;
+        width: 320px;
+    } 
+    .child{
+        width: 252px;
+        height: 162px;
+        top: 4px;
+        left: 34px;
+        border-radius: 5px;
+    }
+    .Button{
+        top: -90px;
+        left: 110px;
+    }
+    .soundButton{
+        top: -85px;
+    }
+}
+
+@media only screen and (min-width: 850px){
+    .parent{ 
+        height: 244px;
+        width:426px;
+    } 
+    .child{
+        width: 336px;
+        height: 216px;
+        top: 5px;
+        left: 45px;
+        border-radius: 7px;
+    }
+    .Button{
+        top: -120px;
+        left: 150px;
+    }
+    .soundButton{
+        top: -85px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1160px){
+    .parent{ 
+        height: 366px;
+        width: 640px;
+    } 
+    .child{
+        position: absolute;
+        width: 504px;
+        height: 324px;
+        background-color: black;
+        top: 8px;
+        left: 68px;
+        border-radius: 10px;
+    }
+    .Button{
+        position: relative;
+        top: -180px;
+        left: 230px;
+        width: fit-content;
+    }
+    .soundButton{
+        top: -85px;
+    }
+}
+@media only screen and (min-width: 1920px){
+    .parent{ 
+        height: 549px;
+        width: 960px;
+    } 
+    .child{
+        width: 756px;
+        height: 486px;
+        top: 12px;
+        left: 102px;
+        border-radius: 15px;
+    }
+    .Button{
+        top: -270px;
+        left: 360px;
+    }
+    .soundButton{
+        top: -95px;
+    }
+}
+

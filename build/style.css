@@ -1,0 +1,284 @@
+body{
+    margin: 0px;
+}
+.mainBody{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #F9F7C9;
+    background-image: url("https://www.transparenttextures.com/patterns/grunge-wall.png");
+    min-width: 320px;
+}
+.boody{
+   display: inline-flexbox;
+}
+@font-face{
+    font-family: AileronSemiBold;
+    src: url("/fonts/aileron.semibold.otf") format("opentype");
+}
+@font-face{
+    font-family: AileronHeavy;
+    src: url("/fonts/aileron.heavy.otf") format("opentype");
+}
+@font-face{
+    font-family: AileronThin;
+    src: url("/fonts/aileron.thin.otf") format("opentype");
+}
+
+#font-aileronHeavy{
+   font-family: AileronHeavy;
+   font-size: 39px;
+   color:#80BCBD;
+}
+#font-aileronThin{
+    font-family: AileronThin;
+    font-size: 20px;
+    color: #80BCBD;
+}
+.intWrap{
+    max-width: 500px;
+}
+
+.introduction{
+    padding: 25px;
+    min-width: 250px;
+    max-width: 520px;
+    padding-bottom: 2px;
+    padding-top: 0px;
+}
+.content{
+        padding: 25px;
+        padding-top: 0px;
+        min-width: 250px;
+        max-width: 520px;
+        padding-bottom: 60px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photoDiv{
+    border-radius: 50%;
+    border: 5px solid #AAD9BB;
+    background-image: url("./iustin.JPG");
+    width: 225px;
+    height: 225px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%
+}
+
+
+/*Slider*/
+.slider{
+    max-width: 800px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.logoImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoName{
+  margin: 0px;
+  font-weight: 200;
+  font-size: 20px;
+  color: #80BCBD;
+}
+
+
+
+
+/*Description Div*/
+.descriptionDiv{
+    min-width: 300px;
+    max-width: 400px;
+    min-height: 300px;
+    margin: 5px;
+}
+.dscTitle{
+    color: #80BCBD;
+    font-size: 35px; 
+    font-family: AileronSemiBold;
+    text-align: center;
+}
+
+.dscTech{
+    margin: 0px;
+    font-family: AileronSemiBold;
+    font-weight: 100;
+    color: #80BCBD;
+}
+.logoNameSize{
+    font-size: 17px;
+ }
+ .dscLogos{
+    min-width: 250px;
+    padding: 5px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.dscP1{
+    color: #80BCBD;
+    margin-top: 0px;
+    font-size: 25px;
+    padding-left: 5px;
+    font-family: AileronSemiBold;
+}
+.dscP2{
+    color: #80BCBD;
+    font-size: 20px;
+    padding-left: 5px;
+    margin: 0px;
+    margin-top: 25px;
+}
+.dscLinks{
+    min-width: 200px;
+    height: 150px;
+}
+
+@media only screen and (min-width: 400px){
+    .dscPositioning{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (min-width: 510px){
+    .start{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .intWrapPosition{
+        display: flex;
+        justify-content: center;
+    }
+    #font-aileronHeavy{
+        font-size: 39px;
+     }
+    .boody{
+        height:750px;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .boody{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 1000px;
+    }
+    .photoDiv{
+        margin-left: 20px;
+    }
+    .photoDiv{
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+    }
+    .sliderDiv{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+    .slider{
+        max-width: 800px;
+    }
+    .firstDiv{
+     margin-top: 100px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+    }
+    .dscTitle{
+        width: 100%;
+    }
+    .intWrap{
+        min-width: 480px;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .boody{
+        gap: 70px;
+     }
+    .photoDiv{
+        order: 2;
+    }
+    .intWrap{
+        order:1;
+    }
+    .photoDiv{
+        width: 400px;
+        height: 400px;
+        margin-left: 0px;
+    }
+    #font-aileronHeavy{
+        font-size: 43px;
+     }
+     .slider{
+        max-width: 1000px;
+    }
+    .firstDiv{
+        gap: 100px;
+    }
+    .introduction{
+        min-width: 520px;
+    }
+}
+@media only screen and (min-width: 1160px){
+    .descriptionDiv{
+        margin-top: 50px;
+    }
+   
+}
+@media only screen and (min-width: 1400px){
+    .slider{
+        max-width: 1300px;
+    }
+}
+@media only screen and (min-width: 1920px){
+
+.boody{
+    gap: 140px;
+ }
+ .photoDiv{
+    width: 500px;
+    height: 500px;
+}
+#font-aileronHeavy{
+    font-size: 45px;
+ }
+ .firstDiv{
+    height: 900px;
+ }
+ .dscPositioning{
+    margin-top: 150px;
+ }
+ .laptopTitlePost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+}
+
+@media only screen and (min-width: 2560px){
+    .boody{
+        height: 1200px;
+    }
+    .slider{
+        max-width: 1600px;
+    }
+    .firstDiv{
+        height: 1000px;
+     }
+}
+
+
