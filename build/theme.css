@@ -1,0 +1,65 @@
+.theme{
+  height: 50px;
+  width: 100%;
+}
+.themeCentering{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.theme-wrap{
+  margin-right: 20px;
+  display: flex;
+  gap:5px
+}
+
+.themeSelector{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    cursor: pointer;
+}
+#themeSelectorOn{
+ border: 2px solid black;
+}
+#themeSelectorOff{
+ border: 2px solid transparent;
+}
+#off{
+    visibility: hidden;
+}
+
+.themeColor{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.Theme1{
+  background-color: #f7e602;
+}
+.Theme2{
+  background-color: #1A4D2E;
+}
+.Theme3{
+    background-color: #005C78
+}
+.Theme4{
+  background-color: black
+}
+
+@media(min-width: 700px){
+    .theme-wrap{
+        margin-right: 100px;
+    }
+}
+
+@media(min-width: 1920px){
+  .theme{
+   position: fixed;
+   z-index: 100;
+  }
+}
