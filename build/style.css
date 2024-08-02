@@ -69,7 +69,11 @@ body{
     background-position: center;
     background-size: 100%
 }
-
+.center-center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
 /*Slider*/
 .slider{
@@ -81,7 +85,7 @@ body{
 .logoImage{
     display: flex;
     justify-content: center;
-    align-items: center;
+    justify-content: center;
 }
 .logoName{
   margin: 0px;
