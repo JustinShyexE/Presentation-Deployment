@@ -72,6 +72,7 @@
 
 .anmTitle{
    position: relative;
+   
    animation: moveRight 1s ease-in-out;
 }
 @keyframes moveRight{
